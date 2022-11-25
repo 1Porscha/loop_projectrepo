@@ -30,3 +30,38 @@ else {
     console.log("age doesn't match")
 }
 }
+
+//Write a loop that logs all even numbers from 0-700.
+
+for (var i = 0; i <= 700; i+= 2)
+  console.log(i)
+
+//Write a loop that logs all odd numbers from 0-700.
+
+for (var i = 0; i <= 700; i++){
+    if (i % 2 != 0){
+    console.log(i)
+    }
+}
+
+//Write a loop with some “if else” statements. The loop should start at 1900 and go to 1949 and log when things were invented
+
+
+let inventionDate = 1902
+
+
+for ( i = 1900; i < 1949; i++ ){
+    if (inventionDate == 1900){
+        console.log('Zeppelin')
+    } else if ( inventionDate == 1902){
+        console.log('teddy bear')
+    } else if (inventionDate == 1913){
+        console.log('bra')
+    }else if (inventionDate == 1935){
+        console.log('radar')
+    }else if (inventionDate == 1943){
+        console.log('slinky')
+    } 
+} 
+
+    
